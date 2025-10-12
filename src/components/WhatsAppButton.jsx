@@ -4,7 +4,7 @@ import { MessageCircle, X, Send, Clock } from 'lucide-react'
 const WhatsAppButton = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
-  const phoneNumber = '08143598369'
+  const phoneNumber = '+2348143598369'
   const message = encodeURIComponent('Hello! I\'m interested in your web development services. Can we discuss my project?')
 
   // Show button after a delay for better UX

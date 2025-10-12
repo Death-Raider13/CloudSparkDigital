@@ -303,8 +303,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Phone</div>
-                    <a href="tel:08143598369" className="text-accent hover:text-accent-light transition-colors">
-                      08143598369
+                    <a href="tel:+2348143598369" className="text-accent hover:text-accent-light transition-colors">
+                      +2348143598369
                     </a>
                   </div>
                 </div>

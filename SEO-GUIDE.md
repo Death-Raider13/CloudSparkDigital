@@ -118,6 +118,6 @@ Create and add these images to your `public` folder:
 
 If you need assistance implementing any of these SEO strategies, contact CloudsparkDigital:
 - Email: Cloudsparkdigital@gmail.com
-- Phone: 08143598369
+- Phone: +2348143598369
 
 Remember: SEO is a long-term strategy. Consistent implementation and monitoring will yield the best results!

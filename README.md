@@ -64,7 +64,7 @@ npm run preview
 ## 📞 Contact Information
 
 - **Email**: Cloudsparkdigital@gmail.com
-- **Phone**: 08143598369
+- **Phone**: +2348143598369
 - **Hours**: Monday - Friday, 9AM - 6PM WAT
 
 ## 🌟 Live Projects
