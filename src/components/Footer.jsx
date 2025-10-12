@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail, Phone, Heart } from 'lucide-react'
+import { Github, Linkedin, Twitter, Mail, Phone, Heart, Sparkles } from 'lucide-react'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -34,13 +34,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand Section */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-3 mb-4">
+            <div className="flex items-center space-x-2 mb-4">
               <div className="relative">
-                <img 
-                  src="/Logo.png" 
-                  alt="CloudsparkDigital Logo" 
-                  className="w-10 h-10 object-contain"
-                />
+                <Sparkles className="w-8 h-8 text-accent" />
                 <div className="absolute inset-0 bg-accent/20 blur-xl"></div>
               </div>
               <span className="text-2xl font-bold">CloudsparkDigital</span>
