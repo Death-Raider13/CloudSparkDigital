@@ -63,7 +63,7 @@ const Navbar = () => {
           >
             <div className="relative">
               <img 
-                src="/Logo.png" 
+                src="Logo.png" 
                 alt="CloudsparkDigital Logo" 
                 className="w-10 h-10 transition-transform group-hover:scale-110"
               />
