@@ -43,14 +43,14 @@ const Hero = () => {
 
         {/* Main Heading */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-          Crafting <span className="relative">
+          Professional <span className="relative">
             <span className="bg-gradient-to-r from-accent via-accent-light to-white bg-clip-text text-transparent animate-gradient">
-              Modern Web
+              Web Development
             </span>
             <span className="absolute inset-0 bg-gradient-to-r from-accent via-accent-light to-white blur-2xl opacity-50"></span>
           </span>
           <br />
-          Experiences That Inspire
+          Services in Nigeria
         </h1>
 
         {/* Subheading */}
