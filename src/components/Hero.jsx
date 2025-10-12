@@ -64,6 +64,7 @@ const Hero = () => {
           <button
             onClick={() => handleScrollTo('portfolio')}
             className="group relative px-8 py-4 bg-gradient-to-r from-accent to-accent-light text-white font-semibold rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/50"
+            aria-label="View Portfolio - See our web development projects"
           >
             <span className="relative z-10 flex items-center space-x-2">
               <span>View Portfolio</span>
@@ -75,6 +76,7 @@ const Hero = () => {
           <button
             onClick={() => handleScrollTo('contact')}
             className="px-8 py-4 bg-white/10 backdrop-blur-md text-white font-semibold rounded-full border-2 border-white/30 transition-all duration-300 hover:bg-white hover:text-primary hover:scale-105 hover:shadow-2xl"
+            aria-label="Get in Touch - Contact CloudsparkDigital for web development services"
           >
             Get in Touch
           </button>

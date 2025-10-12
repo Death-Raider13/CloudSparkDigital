@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Menu, X, Sparkles } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -59,10 +59,14 @@ const Navbar = () => {
           <a
             href="#home"
             onClick={(e) => handleNavClick(e, '#home')}
-            className="flex items-center space-x-2 group"
+            className="flex items-center space-x-3 group"
           >
             <div className="relative">
-              <Sparkles className={`w-8 h-8 transition-colors ${scrolled ? 'text-primary' : 'text-white'} group-hover:text-accent`} />
+              <img 
+                src="/Logo.png" 
+                alt="CloudsparkDigital Logo" 
+                className="w-10 h-10 transition-transform group-hover:scale-110"
+              />
               <div className="absolute inset-0 bg-accent/20 blur-xl group-hover:bg-accent/40 transition-all"></div>
             </div>
             <span className={`text-2xl font-bold transition-colors ${scrolled ? 'text-gray-900' : 'text-white'} group-hover:text-accent`}>
