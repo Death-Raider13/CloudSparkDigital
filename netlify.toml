@@ -1,3 +1,7 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
 [[headers]]
   for = "/*"
   [headers.values]
@@ -6,19 +10,20 @@
     X-Content-Type-Options = "nosniff"
 
 [[headers]]
-  for = "/*.jpg"
-  [headers.values]
-    Content-Type = "image/jpeg"
-    Cache-Control = "public, max-age=31536000"
-
-[[headers]]
   for = "/*.png"
   [headers.values]
     Content-Type = "image/png"
-    Cache-Control = "public, max-age=31536000"
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
-  for = "/og-image.jpg"
+  for = "/*.jpg"
   [headers.values]
     Content-Type = "image/jpeg"
     Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/og-image.png"
+  [headers.values]
+    Content-Type = "image/png"
+    Cache-Control = "public, max-age=0, must-revalidate"
+    Access-Control-Allow-Origin = "*"
