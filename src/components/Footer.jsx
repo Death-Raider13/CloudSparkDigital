@@ -5,18 +5,18 @@ const Footer = () => {
 
   const quickLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Tech Stack', href: '#tech' },
+    { name: 'Experience', href: '#experience' },
     { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Process', href: '#process' },
+    { name: 'SEO Expertise', href: '#seo' },
+    { name: 'Tech Stack', href: '#tech' },
     { name: 'Contact', href: '#contact' },
   ]
 
   const services = [
-    'Functional Websites',
-    'Static Websites',
-    'E-commerce Websites',
-    'Custom Solutions',
+    'Product Growth Engineering',
+    'Full-Stack Development',
+    'Technical SEO Strategy',
+    'Social Growth Management',
   ]
 
   const handleNavClick = (e, href) => {

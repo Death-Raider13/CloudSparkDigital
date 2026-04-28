@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import About from './components/About'
+import Experience from './components/Experience'
 import TechStack from './components/TechStack'
 import Portfolio from './components/Portfolio'
+import SEOExpertise from './components/SEOExpertise'
 import Testimonials from './components/Testimonials'
 import Process from './components/Process'
 import Contact from './components/Contact'
@@ -31,9 +32,10 @@ function App() {
     <div className="relative">
       <Navbar />
       <Hero />
-      <About />
-      <TechStack />
+      <Experience />
       <Portfolio />
+      <SEOExpertise />
+      <TechStack />
       <Testimonials />
       <Process />
       <Contact />

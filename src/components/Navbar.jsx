@@ -8,10 +8,10 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
+    { name: 'Experience', href: '#experience' },
+    { name: 'Websites & Apps', href: '#portfolio' },
+    { name: 'SEO Expertise', href: '#seo' },
     { name: 'Tech Stack', href: '#tech' },
-    { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Process', href: '#process' },
     { name: 'Contact', href: '#contact' },
   ]
 
@@ -65,7 +65,7 @@ const Navbar = () => {
               <Sparkles className={`w-8 h-8 transition-colors ${scrolled ? 'text-primary' : 'text-white'} group-hover:text-accent`} />
               <div className="absolute inset-0 bg-accent/20 blur-xl group-hover:bg-accent/40 transition-all"></div>
             </div>
-            <span className={`text-2xl font-bold transition-colors ${scrolled ? 'text-gray-900' : 'text-white'} group-hover:text-accent`}>
+            <span className={`text-xl sm:text-2xl font-bold transition-colors ${scrolled ? 'text-gray-900' : 'text-white'} group-hover:text-accent`}>
               CloudsparkDigital
             </span>
           </a>

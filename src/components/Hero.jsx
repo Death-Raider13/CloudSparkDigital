@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-accent/10 rounded-full blur-3xl animate-float"></div>
         <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-primary-light/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '3s' }}></div>
-        
+
         {/* Floating Particles */}
         {[...Array(20)].map((_, i) => (
           <div
@@ -38,25 +38,25 @@ const Hero = () => {
         {/* Badge */}
         <div className="inline-flex items-center space-x-2 glass rounded-full px-6 py-3 mb-8 animate-pulse-slow">
           <Sparkles className="w-5 h-5 text-accent" />
-          <span className="text-white font-medium">2+ Years of Excellence</span>
+          <span className="text-white font-medium">3+ Years of Excellence</span>
         </div>
 
         {/* Main Heading */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-          Professional <span className="relative">
+          Product Growth <span className="relative">
             <span className="bg-gradient-to-r from-accent via-accent-light to-white bg-clip-text text-transparent animate-gradient">
-              Web Development
+              Engineer
             </span>
             <span className="absolute inset-0 bg-gradient-to-r from-accent via-accent-light to-white blur-2xl opacity-50"></span>
           </span>
           <br />
-          Services in Nigeria
+          Scaling Digital Products
         </h1>
 
         {/* Subheading */}
         <p className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Building functional, static, and e-commerce websites with cutting-edge technologies.
-          Transform your ideas into powerful digital solutions.
+          Engineering products that scale. Specialized in Full-Stack Development,
+          SEO Architecture, and Strategic Social Growth.
         </p>
 
         {/* CTAs */}
@@ -85,7 +85,7 @@ const Hero = () => {
         {/* Stats */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
           {[
-            { label: 'Years Experience', value: '2+' },
+            { label: 'Years Experience', value: '3+' },
             { label: 'Projects Completed', value: '20+' },
             { label: 'Happy Clients', value: '15+' },
           ].map((stat, index) => (
