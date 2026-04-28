@@ -4,16 +4,24 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-br from-slate-50 to-slate-100 text-gray-900;
+    @apply bg-slate-50 text-gray-900 selection:bg-primary/30;
   }
 }
 
 @layer utilities {
   .glass {
-    @apply bg-white/10 backdrop-blur-lg border border-white/20;
+    @apply bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl;
+  }
+  
+  .glass-dark {
+    @apply bg-black/20 backdrop-blur-xl border border-white/10 shadow-2xl;
   }
   
   .gradient-text {
-    @apply bg-gradient-to-r from-primary via-accent to-primary-light bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary via-accent to-primary-light bg-clip-text text-transparent animate-gradient bg-[length:200%_auto];
+  }
+
+  .hover-glow {
+    @apply transition-all duration-300 hover:shadow-[0_0_30px_rgba(30,64,175,0.3)] hover:-translate-y-1;
   }
 }

@@ -29,17 +29,17 @@ const SEOExpertise = () => {
       stats: { label: 'Organic Growth', value: '+140%' }
     },
     {
-      title: 'E-commerce Platform',
-      category: 'Conversion & Visibility',
-      impact: 'Reach Engineering',
-      description: 'Strategic SEO management to improve visibility for high-competition product categories.',
+      title: 'Local Engineering Services',
+      category: 'Ranking & Authority',
+      impact: 'Local Search Dominance',
+      description: 'Engineered a local SEO strategy that pushed a service business from page 5 to the #1 spot for multiple high-intent keywords.',
       points: [
-        'Product schema markup',
-        'Dynamic URL optimization',
-        'Category page authority',
-        'Internal linking architecture'
+        'Local citation building',
+        'GMB optimization & management',
+        'Geo-targeted content clusters',
+        'Review acquisition strategy'
       ],
-      stats: { label: 'Keyword Rank', value: 'Top 3' }
+      stats: { label: 'Ranking', value: '#1 Spot' }
     }
   ]
 
